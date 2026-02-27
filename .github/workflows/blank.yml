@@ -46,7 +46,7 @@ jobs:
     - name: Generate device tree
       run: |
         mkdir -p device_tree_output
-        python3 -m twrpdtgen_v3 \
+        python3 -m twrpdtgen_v2 \
           -o device_tree_output \
           recovery.img
         
